@@ -1,0 +1,9 @@
+suma = 0
+
+for i in range(1, 6):
+    nota = float(input("Ingrese nota " + str(i) + ": "))
+    suma = suma + nota
+
+promedio = suma / 5
+
+print("Promedio:", promedio)
